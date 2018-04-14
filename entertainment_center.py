@@ -1,8 +1,9 @@
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 avatar = media.Movie("Avatar",
@@ -29,3 +30,7 @@ pulp_fiction = media.Movie("Pulp Fiction",
                              "2 hitmen try to recover a briefcase for their boss",
                              "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
                              "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
+
+movies = [toy_story, avatar, school_of_rock, men_in_black, the_little_mermaid, pulp_fiction]
+
+fresh_tomatoes.open_movies_page(movies)
