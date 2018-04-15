@@ -33,4 +33,6 @@ pulp_fiction = media.Movie("Pulp Fiction",
 
 movies = [toy_story, avatar, school_of_rock, men_in_black, the_little_mermaid, pulp_fiction]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__doc__)
